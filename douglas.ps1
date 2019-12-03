@@ -39,6 +39,8 @@ choco install -y terraform
 choco install -y microsoft-teams
 choco install -y office365business
 
+choco install -y firacode mediainfo postman sysinternals blender dashlane docker-cli docker-desktop reaper vagrant
+
 # Install tools in WSL instance
 write-host "Installing tools inside the WSL distro..."
 Ubuntu1804 run apt install ansible -y
